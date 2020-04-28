@@ -1,5 +1,6 @@
 package com.prem.edureka.rough;
 
+import java.io.FileInputStream;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -17,6 +18,7 @@ public class RoughEdureka {
 
 	public static WebDriver driver;
 	public static WebDriverWait wait;
+	public static FileInputStream fis;
 
 	public static void setup() {
 		System.setProperty("webdriver.chrome.driver",
